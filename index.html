@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitch Hearthstone Viewer</title>
+    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amaranth">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+  <body>
+    <div class="header navbar-fixed-top">
+    <h1>Hearthstone Twitch Streamers</h1> </div>
+  <div class="row toggle-bar" id="statusstream">
+    <div class="btn btn-default active toggle" id ="allbutton">
+      All
+    </div>
+    <div class="btn btn-default toggle" id ="onlinebutton">
+      Online
+    </div>
+    <div class="btn btn-default toggle" id ="offlinebutton">
+      Offline
+    </div>
+  </div>
+
+
+<div class="container" id="content">
+  <div class="row">
+
+
+
+    <div class="content " id="allcontent">
+      <div class="clear-skies"><p>There's nothing here!</p></div>
+       <div class="render-list">
+        <!-- load data here -->
+        <div class="online-group groups">
+        <div class="col-xs-10 col-xs-offset-1 online-title">
+          <h2>Online</h2></div>
+          <br>
+        <div class="card col-xs-10 col-xs-offset-1 online-container" id="onlinecontent">
+          Loading. Please wait.
+        </div>
+        </div>
+        <div class="offline-group groups">
+        <div class="col-xs-10 col-xs-offset-1 offline-title">
+          <h2>Offline</h2></div>
+        <div class="card col-xs-10 col-xs-offset-1 offline-container">
+          Loading. Please wait.
+        </div>
+        </div>
+        <div class="inactive-group groups">
+        <div class="col-xs-10 col-xs-offset-1 inactive-title">
+          <h2>Inactive</h2></div>
+        <div class="card col-xs-10 col-xs-offset-1 inactive-container" id="inactivecontent">
+          Loading. Please wait.
+        </div>
+        </div>
+                <!-- end load data -->
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+<div class="footer navbar-fixed-bottom">Made by &copy;<a href="http://www.github.com/damagecs" target="_blank">Alexandru Stoica</a> 2016
+</div>
+</body>
+
+</html>

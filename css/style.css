@@ -1,0 +1,106 @@
+h1 {
+     color: whitesmoke;
+     background-color: rgba(21, 15, 46, 0.86);
+     background-size: cover;
+     margin-top: 0px;
+     height: 50%;
+     font-family: Amaranth;
+     text-align: center;
+     margin: 0px;
+     padding: 0px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+   }
+
+ h2 {
+   color: whitesmoke;
+   font-family: Amaranth;
+   font-weight: bold;
+   background-color: rgba(21, 15, 46, 0.80);
+   box-shadow: -5px -5px 10px -2px rgba(100, 100, 100, .9);
+   text-align: center;
+ }
+
+body {
+    height: 100%;
+    background-image: url('http://res.cloudinary.com/damage/image/upload/v1465319346/projectsimages/hsbk.jpg');
+    background-size: no-repeat;
+    background-position: center;
+}
+
+html {
+    background-size: cover ;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.footer {
+        color: whitesmoke;
+        text-align: center;
+        bottom: 0px;
+        height: 20px;
+        left: 0;
+        right: 0;
+          background-color: rgba(21, 15, 46, 0.86);
+
+}
+
+#content {
+    font-family: Amaranth, serif;
+    font-size: 20px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(21, 15, 46, 0.56);
+    color: black;
+    box-shadow: -5px -5px 10px -2px rgba(100, 100, 100, .9);
+    margin-top: 50px;
+    padding: 0;
+    padding-top: 15px;
+}
+
+#inactivecontent {
+  color: darkred;
+  margin-bottom: 24px;
+  padding-bottom: 5px;
+}
+
+#statusstream {
+  font-size: 20px;
+  color: #01315a;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+a {
+  color: rgb(177, 175, 254);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px outset rgba(255, 255, 255, 0.3) !important;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.clear-skies {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 60vh;
+  display: none; }
+
+  #allbutton, #onlinebutton, #offlinebutton {
+      background-color: rgba(21, 15, 46, 0.46);
+      box-shadow: -5px -5px 10px -2px rgba(100, 100, 100, .9);
+  }
+
+  div.container {
+    height: 1px;
+    display: block;
+    text-align: left;
+  }
